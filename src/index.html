@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Gira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="font-fira bg-light-pink text-light-purple text-base p-8 leading-6 m-0 block">
+    <include src="./views/header.html"></include>
+    
+    <main class="max-w-2xl m-auto relative p-4">
+      <article>
+          <h1 class="text-h1">Gira</h1>
+          <img src="./assets/images/tour.jpg" alt="tour">
+          <h2 class="m-4 text-2xl font-bold">La historia y el futuro de nuestras giras por el mundo</h2>
+          
+          <include src="./views/lorem.html"></include>
+
+          <ul class="m-2">
+            <li class="row-item-bg-pink">
+                01/04/2019 - Cádiz
+            </li>
+            <li class="row-item-bg-purple">
+                01/06/2019 - Madrid
+            </li>
+            <li class="row-item-bg-pink">
+                01/10/2019 - Lisboa
+            </li>
+            <li class="row-item-bg-purple">
+                01/11/2019 - París
+            </li>
+            <li class="row-item-bg-pink">
+                01/10/2019 - Milán
+            </li>
+          </ul>
+
+          <include src="./views/lorem.html"></include>
+
+          <img src="./assets/images/tour2.jpg" alt="tour">
+
+          <h2 class="m-4 text-2xl font-bold">Próximos eventos</h2>
+          <ul>
+            <li class="row-item-bg-pink">
+                01/04/2023 - Roma
+            </li>
+            <li class="row-item-bg-purple">
+                01/06/2023 - Barcelona
+            </li>
+            <li class="row-item-bg-pink">
+                01/10/2023 - Amsterdam
+            </li>
+          </ul>
+  
+        </article>      
+      </main>
+
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

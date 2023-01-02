@@ -1,0 +1,21 @@
+@layer components {
+  .form-box {
+    @apply rounded-md border-transparent;
+  }
+
+  .text-h1 {
+    @apply text-xl mb-4 font-bold;
+  }
+
+  .row-item-bg-pink {
+    @apply p-3 bg-dark-pink text-white;
+  }
+
+  .row-item-bg-purple {
+    @apply p-3 bg-light-purple text-white;
+  }
+
+  .margin-3 {
+    @apply m-3;
+  }
+}
